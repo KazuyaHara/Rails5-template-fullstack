@@ -1,5 +1,7 @@
-#
+# ----------------------------------------------------------------
 # Rails5 FullStack Application Template
+# ----------------------------------------------------------------
+
 #
 # Usage:
 #   git clone git@github.com:KazuyaHara/Rails5-Template-FullStack.git
@@ -23,3 +25,5 @@ end
 puts "\n========================================================="
 puts " Rails5 FullStack Application Template".yellow.bold
 puts "=========================================================\n"
+
+copy_static_file 'Gemfile'
