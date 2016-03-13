@@ -9,6 +9,19 @@
 #
 # Also see http://textmate.rubyforge.org/thor/Thor/Actions.html
 
+# Check prerequisites
+%w{colored haml}.each do |component|
+  unless Gem.available?(component)
+    run "gem install #{component}"
+    Gem.refresh
+    Gem.activate(component)
+  end
+end
+
+require "rails"
+require "colored"
+require "haml"
+
 # Directories for template partials and static files
 @template_root = File.expand_path(File.join(File.dirname(__FILE__)))
 @partials     = File.join(@template_root, 'partials')
