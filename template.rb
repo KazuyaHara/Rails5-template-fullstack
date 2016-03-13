@@ -16,7 +16,7 @@
 
 # Copy a static file from the template into the new application
 def copy_static_file(path)
-  puts "Installing #{path}...".magenta
+  puts "Installing #{path}..."
   remove_file path
   file path, File.read(File.join(@static_files, path))
   puts "\n"
