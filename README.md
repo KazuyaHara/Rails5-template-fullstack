@@ -6,5 +6,5 @@ consider your application name deeply, then run
 
 ```
 $ git clone git@github.com:KazuyaHara/Rails5-Template-FullStack.git
-$ rails new appname -d postgresql -m ./Rails5-Template-FullStack/template.rb
+$ rbenv exec bundle exec rails new appname -d postgresql -m ./Rails5-Template-FullStack/template.rb
 ```
