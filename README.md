@@ -6,5 +6,5 @@ consider your application name deeply, then run
 
 ```
 $ git clone git@github.com:KazuyaHara/Rails5-Template-FullStack.git /template/Rails5-Template-FullStack
-$ rails new appname -d postgresql -m /template/Rails5-Template-FullStack/template.rb
+$ rails new appname -d postgresql -m /Rails5-Template-FullStack/template.rb
 ```
