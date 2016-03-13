@@ -27,3 +27,4 @@ puts " Rails5 FullStack Application Template".yellow.bold
 puts "=========================================================\n"
 
 copy_static_file 'Gemfile'
+apply "#{@partials}/_git.rb"
