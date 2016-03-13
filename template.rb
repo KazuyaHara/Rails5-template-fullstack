@@ -28,3 +28,4 @@ puts "=========================================================\n"
 
 copy_static_file 'Gemfile'
 apply "#{@partials}/_git.rb"
+apply "#{@partials}/_rbenv.rb"
